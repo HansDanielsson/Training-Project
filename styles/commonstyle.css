@@ -1,0 +1,53 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+/* Grundläggande stil för meny */
+.menu {
+  list-style-type: none; /* Tar bort punkter */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+/* Menyalternativ */
+ .menu li {
+  display: inline-block;
+}
+
+/* Länkar i menyn */
+.menu li a {
+  display: block;
+  text-align: left;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    display: none; /* Döljer menyn på mobiler */
+    flex-direction: column; /* Byter radie för att visa alternativ vertikalt */
+    width: 100%;
+  }
+
+  .menu.active {
+    display: flex; /* Visar menyn när den är aktiv */
+  }
+
+  .hamburger {
+    display: block; /* Visar hamburgermenyn */
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .menu li {
+    text-align: center;
+    border-top: 1px solid #444;
+  }
+}
