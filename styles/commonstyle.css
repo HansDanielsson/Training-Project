@@ -15,37 +15,45 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Menyfärger och vänster text */
 nav {
   text-align: left;
-  background-color: #808015;
 }
 
+/* Definition av olika background-color */
 nav h1 {
   background-color: #808015;
 }
 
-ul {
+nav ul {
   background-color: #808015;
 }
 
-li a {
+nav ul li a {
   background-color: #808015;
 }
 
-/* Slut menyfärger och vänster text */
-
-h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+.main {
   background-color: #AAAA39;
 }
 
 p {
   background-color: #AAAA39;
+}
+
+ul {
+  background-color: #AAAA39;
+}
+
+li {
+  text-align: left;
+  background-color: #AAAA39;
+}
+
+footer,
+footer a {
+  background-color: #555500;
 }
 
 /* Grundläggande stil för meny */
@@ -103,12 +111,7 @@ p {
 }
 
 footer {
-  background-color: #550;
   margin-top: 20px;
   text-align: center;
   border-top: 1px solid #006293;
-}
-
-footer a {
-  background-color: #550;
 }
