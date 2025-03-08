@@ -1,11 +1,57 @@
 * {
   background-color: black;
   color: white;
+  text-align: center;
+  /* Centrerar texter */
+}
+
+/* Grundläggande stil för sidan */
+body {
+  width: 90%;
+  max-width: 1200px;
+  margin: 10px auto;
+  background-color: #AAAA39;
+  /* En del objekt ärver inte background-color */
+  font-family: Arial, sans-serif;
+}
+
+/* Menyfärger och vänster text */
+nav {
+  text-align: left;
+  background-color: #808015;
+}
+
+nav h1 {
+  background-color: #808015;
+}
+
+ul {
+  background-color: #808015;
+}
+
+li a {
+  background-color: #808015;
+}
+
+/* Slut menyfärger och vänster text */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background-color: #AAAA39;
+}
+
+p {
+  background-color: #AAAA39;
 }
 
 /* Grundläggande stil för meny */
 .menu {
-  list-style-type: none; /* Tar bort punkter */
+  list-style-type: none;
+  /* Tar bort punkter */
   margin: 0;
   padding: 0;
   display: flex;
@@ -17,7 +63,7 @@
 }
 
 /* Menyalternativ */
- .menu li {
+.menu li {
   display: inline-block;
 }
 
@@ -31,17 +77,21 @@
 
 @media (max-width: 768px) {
   .menu {
-    display: none; /* Döljer menyn på mobiler */
-    flex-direction: column; /* Byter radie för att visa alternativ vertikalt */
+    display: none;
+    /* Döljer menyn på mobiler */
+    flex-direction: column;
+    /* Byter radie för att visa alternativ vertikalt */
     width: 100%;
   }
 
   .menu.active {
-    display: flex; /* Visar menyn när den är aktiv */
+    display: flex;
+    /* Visar menyn när den är aktiv */
   }
 
   .hamburger {
-    display: block; /* Visar hamburgermenyn */
+    display: block;
+    /* Visar hamburgermenyn */
     font-size: 30px;
     cursor: pointer;
   }
@@ -50,4 +100,15 @@
     text-align: center;
     border-top: 1px solid #444;
   }
+}
+
+footer {
+  background-color: #550;
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #006293;
+}
+
+footer a {
+  background-color: #550;
 }
