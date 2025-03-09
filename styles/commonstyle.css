@@ -1,11 +1,28 @@
+/* Grundläggande stil för sidan */
 * {
   background-color: black;
   color: white;
   text-align: center;
-  /* Centrerar texter */
+  /* Centrerar alla texter */
 }
 
-/* Grundläggande stil för sidan */
+/* Definition av olika background-color */
+p,
+b,
+div,
+h1,
+h2,
+h3,
+ul,
+li,
+.main {
+  background-color: #AAAA39;
+}
+
+li {
+  text-align: left;
+}
+
 body {
   width: 90%;
   max-width: 1200px;
@@ -19,41 +36,22 @@ nav {
   text-align: left;
 }
 
-/* Definition av olika background-color */
-nav h1 {
-  background-color: #808015;
-}
-
-nav ul {
-  background-color: #808015;
-}
-
+nav,
+nav h1,
+nav ul,
 nav ul li a {
   background-color: #808015;
-}
-
-h2,
-h3,
-.main {
-  background-color: #AAAA39;
-}
-
-p {
-  background-color: #AAAA39;
-}
-
-ul {
-  background-color: #AAAA39;
-}
-
-li {
-  text-align: left;
-  background-color: #AAAA39;
 }
 
 footer,
 footer a {
   background-color: #555500;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  border-top: 1px solid #006293;
 }
 
 /* Grundläggande stil för meny */
@@ -108,10 +106,4 @@ footer a {
     text-align: center;
     border-top: 1px solid #444;
   }
-}
-
-footer {
-  margin-top: 20px;
-  text-align: center;
-  border-top: 1px solid #006293;
 }
