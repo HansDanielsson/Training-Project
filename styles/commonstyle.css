@@ -1,7 +1,10 @@
 /* Grundläggande stil för sidan */
 * {
   background-color: black;
+  /* Inverterad hemsida, bra för mörkerseende */
   color: white;
+  font-size: 18px;
+  /* Använder större text så att kontrasten blir bättre */
   text-align: center;
   /* Centrerar alla texter */
 }
@@ -14,8 +17,7 @@ h1,
 h2,
 h3,
 ul,
-li,
-.main {
+li {
   background-color: #AAAA39;
 }
 
