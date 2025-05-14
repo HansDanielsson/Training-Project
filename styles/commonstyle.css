@@ -5,7 +5,7 @@
   color: white;
   font-size: 20px;
   /* Använder större text så att kontrasten blir bättre */
-  text-align: center;
+  /*text-align: center;
   /* Centrerar alla texter */
 }
 
@@ -46,6 +46,10 @@ nav h1,
 nav ul,
 nav ul li a {
   background-color: #808015;
+}
+
+nav h1 {
+  text-align: center;
 }
 
 footer,
