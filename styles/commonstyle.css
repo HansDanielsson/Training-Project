@@ -24,6 +24,8 @@ li {
 article,
 section {
   border: 5px solid #FFFFAA;
+  background-color: #AAAA39;
+  padding: 35px;
 }
 
 li {
